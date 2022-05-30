@@ -1,0 +1,23 @@
+{
+    "name": "Your Collection #1",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/1.png",
+    "dna": "b59009d49afd40aaa87604ba5f73c9fd9b867f67",
+    "edition": 1,
+    "date": 1653581718158,
+    "attributes": [
+      {
+        "trait_type": "background",
+        "value": "cloud"
+      },
+      {
+        "trait_type": "main",
+        "value": "man"
+      },
+      {
+        "trait_type": "acc",
+        "value": "hat"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  }
