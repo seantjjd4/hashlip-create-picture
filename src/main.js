@@ -35,7 +35,7 @@ const getImageJson = async () => {
     try {
         const response = await axios.get("https://gateway.pinata.cloud/ipfs/QmRy8bEHAti4DoWqKL6AjEU6yaijTt5s34BwqaZb21Lhcp");
         const metaData = response.data;
-        fs.writeFileSync(`${jsonsPath}/${metaData.edition}.json`, JSON.stringify(metaData));
+        fs.writeFileSync(`${jsonsPath}/${metaData.edition}.json`, JSON.stringify(metaData, null, 2));
     } catch (error) {
         console.error(error);
         process.exit();
